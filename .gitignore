@@ -1,0 +1,8 @@
+venv/
+video/
+dataset/images/
+dataset/labels/
+runs/
+*.mp4
+*.mov
+*.pt
