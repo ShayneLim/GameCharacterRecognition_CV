@@ -1,7 +1,9 @@
+.venv/
 venv/
 video/
 dataset/images/
 dataset/labels/
+frames/
 runs/
 *.mp4
 *.mov
