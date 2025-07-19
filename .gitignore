@@ -3,8 +3,10 @@ venv/
 video/
 dataset/images/
 dataset/labels/
+dataset
 frames/
 runs/
 *.mp4
 *.mov
 *.pt
+assets/video
