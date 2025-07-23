@@ -5,11 +5,11 @@ import time
 from datetime import datetime
 
 # --- Configuration ---
-video_path = "./assets/video/test.mp4" # Video Path
+video_path = "./assets/video/vid_2.mp4" # Video Path
 base_output_dir = "./frames" # Output Path
-frame_interval = 60 # Number of frames between capture
+frame_interval = 120 # Number of frames between capture
 capture_cap = 1000 # Number of captures before stopping
-max_workers = os.cpu_count() / 2 # dont change this shit
+max_workers = os.cpu_count() # dont change this shit
 
 # ---------------------
 
@@ -60,7 +60,7 @@ def main():
 
             if saved_count >= capture_cap:
                 break
-            
+
             frame_count += 1
 
     cap.release()

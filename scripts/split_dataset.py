@@ -73,7 +73,7 @@ if __name__ == '__main__':
             if key in percentages:
                 percentages[key] = int(cli_args[key])
             else:
-                print(f"⚠️ Warning: Ignoring unknown argument '{key}'")
+                print(f"Warning: Ignoring unknown argument '{key}'")
     except (ValueError, TypeError):
         print("Error: Invalid argument format. Use key=value (e.g., train=70).")
         sys.exit(1)
