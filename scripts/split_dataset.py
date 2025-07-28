@@ -75,7 +75,7 @@ if __name__ == '__main__':
             else:
                 print(f"Warning: Ignoring unknown argument '{key}'")
     except (ValueError, TypeError):
-        print("Error: Invalid argument format. Use key=value (e.g., train=70).")
+        print("Error: Invalid argument format.")
         sys.exit(1)
 
     if sum(percentages.values()) != 100:
